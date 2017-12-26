@@ -1,6 +1,6 @@
 # react-flux-graphql-demo
 
-React based data-driven application built with Redux
+React and Flux based data-driven application built with GraphQL
 
 ## Pre Reqs
 

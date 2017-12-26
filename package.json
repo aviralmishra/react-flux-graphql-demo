@@ -1,7 +1,7 @@
 {
   "name": "react-flux-graphql-demo",
   "version": "1.0.0",
-  "description": "React based data-driven application built with Redux",
+  "description": "React and Flux based data-driven application built with GraphQL",
   "main": "lib/data/server.js",
   "scripts": {
     "dev": "pm2 flush && pm2 start ecosystem.config.js --env development",
@@ -32,8 +32,7 @@
   "homepage": "https://github.com/aviralmishra/react-flux-graphql-demo#readme",
   "babel": {
     "presets": [
-      "react",
-      [
+      "react", [
         "env",
         {
           "targets": {
