@@ -60,6 +60,7 @@ npm run start-prod
 1. [Atom Editor Cheat Sheet](https://gist.github.com/chrissimpkins/5bf5686bae86b8129bee#atom_search)
 2. [Bootstrap](http://getbootstrap.com/docs/3.3/css/)
 3. [JavaScript Style Guide](https://github.com/airbnb/javascript)
+4. [Webpack](https://github.com/webpack/docs/wiki/configuration)
 
 ## To Do
 
