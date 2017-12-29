@@ -61,6 +61,7 @@ npm run start-prod
 2. [Bootstrap](http://getbootstrap.com/docs/3.3/css/)
 3. [JavaScript Style Guide](https://github.com/airbnb/javascript)
 4. [Webpack](https://github.com/webpack/docs/wiki/configuration)
+5. [MongoDB Driver API](http://mongodb.github.io/node-mongodb-native/3.0/api/)
 
 ## To Do
 
@@ -82,6 +83,19 @@ query {
   artists {
     name
     wikipedia
+  }
+}
+```
+
+```
+query {
+  album(id: "album-1001") {
+    id
+    title
+    released
+    art
+    artistId
+    description
   }
 }
 ```
@@ -111,18 +125,32 @@ mutation CreateAlbum($input: AlbumInput!) {
 ```
 
 ```
-mutation CreateArtist($input: ArtistInput!) {
-  createArtist(input: $input) {
+mutation {
+  createAlbum(input: {
+    id: "album-1006",
+    title: "Continuum",
+    released: "2006-09-12",
+    art: "https://en.wikipedia.org/wiki/Continuum_(John_Mayer_album)#/media/File:Continuum_(album).png",
+    artistId: "artist-1002",
+    description: "Continuum is the third studio album by American musician John Mayer. The album debuted at number 2 on the US Billboard 200 chart, selling 300,186 copies in its first week."
+
+}) {
     id
-    name
+    title
+    released
+    art
+    artistId
     description
   }
 }
+```
 
-{
-  "input": {
-    "id": "artist-1006",
-    "name": "Cliff Richard"
+```
+mutation {
+  createArtist(input: {id: "artist-1006", name: "Cliff Richard"}) {
+    id
+    name
+    description
   }
 }
 ```
