@@ -33,8 +33,7 @@
   "homepage": "https://github.com/aviralmishra/react-flux-graphql-demo#readme",
   "babel": {
     "presets": [
-      "react",
-      [
+      "react", [
         "env",
         {
           "targets": {

@@ -63,11 +63,14 @@ npm run start-prod
 4. [Webpack](https://github.com/webpack/docs/wiki/configuration)
 5. [MongoDB Driver API](http://mongodb.github.io/node-mongodb-native/3.0/api/)
 6. [Bootstrap SASS](https://github.com/twbs/bootstrap-sass)
+7. [Bootstrap Components](http://getbootstrap.com/docs/3.3/components/)
+8. [SASS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
 ## To Do
 
-1. Automated tests
-2. Production build and run
+1. Form validations
+2. Automated tests
+3. Production build and run
 
 ## Sample GraphQL Queries
 
