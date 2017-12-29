@@ -62,7 +62,7 @@ npm run start-prod
 3. [JavaScript Style Guide](https://github.com/airbnb/javascript)
 4. [Webpack](https://github.com/webpack/docs/wiki/configuration)
 5. [MongoDB Driver API](http://mongodb.github.io/node-mongodb-native/3.0/api/)
-6. [Bootstrap SASS] (<https://github.com/twbs/bootstrap-sass>)
+6. [Bootstrap SASS](https://github.com/twbs/bootstrap-sass)
 
 ## To Do
 
